@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="landingPageContainer">
+        <div id="blurredBG"></div>
+        <header>
+            <nav>
+                <div id="mainNavLeft">
+                <a id="logo" href="#landingPageContainer">
+                    <i class="fas fa-cube"></i>
+                </a></div>
+            <div id="mainNavRight">
+                <ul>
+                    <a href="#aboutContainer">
+                        <li class="textOfLp">&lt;about&gt;</li>
+                    </a>
+                    <a href="#projectsContainer">  
+                        <li class="textOfLp">&lt;projects&gt;</li>
+                    </a>
+                   <a href="#contactContainer"> <li class="textOfLp">&lt;contact&gt;</li>
+                </a>
+                <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2a126dc4-68c1-3553-8fb2-39267049f0b9" target="blank"><li class="textOfLp">&lt;cv&gt;</li>
+                </a>
+                </ul>
+            </nav> 
+        </header>
+    
+        </div>
+        <div id="textOfWelcome">
+            <h3 id="headingOfWelcome">Welcome !</h3>
+            <p>I'm a Berlin-based <b>UX/UI Designer</b> & <b>Web Developer</b> .
+<br>  
+    I have a passion for designing user-centered digital experiences that are driven by data, highly customizable, and optimized for web and app platforms.
+              
+            </p>
+            <a href="#projectsContainer">
+                <button id="buttonOfLp" onmouseover="changeText()" onmouseout="resetText()" >View my Work -></button>
+            </a>
+            
+        </div>
+    </div>
+    <div id="aboutContainer">
+
+        <h2 id="aboutHeading">&lt;about&gt;</h2>
+        
+        <div id="aboutMe1">
+            <div id="aboutTextContainer">
+                <p  class="textOfAbout">As a professional, I have a passion for designing user-centered digital experiences that are driven by data, highly customizable, and optimized for web and app platforms. My goal is to create an enjoyable and accessible experience for the end-user.
+                    Here's a little summary about my set of skills that I am using in my design process :
+                    
+                    <br><br>As a highly motivated and curious UX/UI designer with Interior Design background and five years of experience in customer and service experience-centric operations in both B2B and B2C environments, I have honed my interpersonal and communication skills through my empathetic and sympathetic approach. I am eager to work with a team to share my experience-learned skills and ideas, and to collaborate and deliver exceptional digital experiences. I also enjoy leading my own projects or teams.</p>
+            </div>
+               <img id="selfPotrait" src="./selfpotrait.png" alt="">
+    </div>
+    <div id="aboutMe2">
+        <div id="aboutMeBlurred"></div>
+    <div class="textAbout2">
+        <i class="fas fa-comments"></i>
+        <h3>This is a skill</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, culpa.</p>
+    </div>
+        <div class="textAbout2">
+            <i class="fas fa-users"></i>
+            <h3>This is a skill</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, culpa.</p>
+        </div>
+            <div class="textAbout2">
+                <i class="fas fa-lightbulb"></i>
+                <h3>This is a heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, culpa.</p>
+            </div>
+        </div>
+<br>
+<br>
+<br>
+    <div id="projectsContainer">
+<h2 id="projectsHeading">&lt;Projects&gt;</h2>
+<div id="projectsForm">
+    <label id="projectLabel" for="projectType">Project Type:</label>
+            <select id="projectType" name="projectType">
+                <option value="all">All</option>
+                <option value="uxui">UX-UI Design</option>
+                <option value="webdev">Web Development</option>
+            </select>
+        </div>
+        <div class="projectImageSlideContainer">
+<div id="projectImageContainer">
+    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" class="img" data-type="uxui" alt="">
+    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" class="img" data-type="uxui"  alt="">
+    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" data-type="webdev" class="img" alt="">
+    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" data-type="webdev"  class="img" alt="">
+    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" class="img"data-type="webdev"  alt="">
+    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80" class="img" data-type="webdev"  alt="">
+</div>
+</div>
+    </div>
+<div id="contactContainer">
+    <h2 id="contactHeading">&lt;Contact&gt;</h2>
+    <form>
+        <div class="form-row">
+            <p id="contactText">Want to work with me? <br>
+            Reach me out by submitting the form below</p>
+        </div>
+        <div class="form-row"> 
+            <label for="name">Name:</label>
+            <input class="inputContainer" type="text" id="name" placeholder="your name">
+    </div>
+       <div class="form-row">
+            <label for="email">Email:</label> 
+            <input type="email"class="inputContainer" type="email" id="email" placeholder="your email">
+       </div>
+       <div class="form-row"> 
+        <label for="message">Message:</label>
+        <textarea name="message" placeholder="Your Message"  class="inputContainer"cols="60"rows="10"></textarea>
+    </div>
+        <div> 
+            <button id="buttonOfAbout">Send Email</button>
+        </div>
+</form>  
+</div>
+  
+   
+</div>
+<footer id="footer">
+    <div id="icons">
+        <a href="http://www.facebook.com" target="blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+       <a href="http://www.twitter.com" target="blank">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a href="http://www.linkedin.com" target="blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+       <a href="http://www.behance.com" target="blank">
+        <i class="fab fa-behance"></i>
+       </a>
+    </div>
+    <div id="Last Box"></div>
+</footer>
+
+    <script src="main.js"></script>
+   
+
+    
+</body>
+</html>
